@@ -2839,7 +2839,8 @@ p:last-child {
 
 .single-team-box .team-image img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: fill;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
